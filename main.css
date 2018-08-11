@@ -101,6 +101,13 @@ footer, section{
        2px 2px 0 black;
 }
 
+@media (max-width: 825px){
+    #disclaimer{
+        font-size: 20px;
+    }  
+}
+
+
 .animate-in {
     -webkit-animation: fadeIn 1s ease-in;
     animation: fadeIn 1s ease-in;
