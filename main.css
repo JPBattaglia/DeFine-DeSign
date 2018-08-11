@@ -14,12 +14,12 @@ html{
     padding: 15px; /* Some padding */
     border-radius: 50px; /* Rounded corners */
     border: 1px solid red;
-    background: url("redarrow%20copy.png");
+    background: url("bluearrow1.png");
 }
 
 #myBtn:hover {
     border-color: dodgerblue;
-    background: url("bluearrow1.png");
+    background: url("redarrow%20copy.png");
 }
 
 #background {
