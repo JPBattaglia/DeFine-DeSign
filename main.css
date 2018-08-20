@@ -13,7 +13,7 @@ html{
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 50px; /* Rounded corners */
-    border: 1px solid red;
+    border: 2px solid dodgerblue;
     background: url("bluearrow1.png");
 }
 
@@ -65,9 +65,10 @@ a:hover img {
 }
 
 body{
-    background: url(ChickenFootBackground1.png), repeating-linear-gradient(to right, darkblue, #006, #007, darkblue 30%);
+    background: url(ChickenFootBackground1.png), repeating-linear-gradient(to right, darkblue, #006, #007, darkblue 100%);
     background-repeat: repeat;
     margin: 20px;
+    background-size: 75px 80px;
 }
 
 #brands{
@@ -87,6 +88,7 @@ body{
 }
 
 footer, section{
+    margin:auto;
     text-align: center;
     font-family:'federant', serif;
     color:white;
@@ -200,7 +202,7 @@ a:active {
     h3{
         font-size: 15px;
         margin: 0px 100px;
-        max-width: 40%;
+        max-width: 50%;
     }
 }
 
