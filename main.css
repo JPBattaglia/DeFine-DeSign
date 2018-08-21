@@ -110,6 +110,10 @@ table, td{
 td{
     border: 6px double gold;
     background: #007;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
 }
 
 td:hover{
