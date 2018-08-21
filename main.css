@@ -13,7 +13,7 @@ html{
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 50px; /* Rounded corners */
-    border: 2px solid dodgerblue;
+    border: 1px solid gold;
     background: url("bluearrow1.png");
 }
 
@@ -170,7 +170,7 @@ h2{
     border-radius: 10px;
     padding: 0px 15px;
     background: rgb(0, 0, 119, .7);
-    font-size: 50px;
+    font-size: 45px;
     color:blue;
     text-shadow:
        2px 2px 0 gold,
@@ -203,14 +203,14 @@ a:active {
     }
     
     h2:hover{
-        font-size: 50px;
+        font-size: 45px;
         background: rgb(0, 0, 119, .7);
         padding: 0px 15px;
     }
     
     h3{
-        font-size: 15px;
-        margin: 0px 100px;
+        font-size: 12px;
+        margin: auto;
         max-width: 50%;
     }
 }
