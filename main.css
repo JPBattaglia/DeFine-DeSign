@@ -82,7 +82,7 @@ body{
 #disclaimer{
     font-size: 35px;
     background-color: #007;
-    border: 7px double white;
+    border: 7px double gold;
     border-radius: 30px;
     padding:10px;
 }
@@ -102,14 +102,14 @@ footer, section{
 }
 
 table, td{
-    border-radius: 80px;
+    border-radius: 30px;
     border-spacing: 155px 200px;
     margin:auto;
 }
 
 td{
-    border: 6px double white;
-    background: rgb(0, 0, 25, .4)
+    border: 6px double gold;
+    background: #006;
 }
 
 h4, #web{
@@ -127,7 +127,7 @@ h4, #web{
 
 h3{
     background-color: #007;
-    border: 3px double white;
+    border: 3px double gold;
     border-radius: 20px;
     border-spacing: 20px;
     padding: 5px;
@@ -161,11 +161,11 @@ a:hover, h2:hover {
 h2:hover{
     color:blue;
     text-shadow:
-       2px 2px 0 yellow,
-     -2px -2px 0 yellow,  
-      2px -2px 0 yellow,
-      -2px 2px 0 yellow,
-       2px 2px 0 yellow;
+       2px 2px 0 gold,
+     -2px -2px 0 gold,  
+      2px -2px 0 gold,
+      -2px 2px 0 gold,
+       2px 2px 0 gold;
 }
 
 a:active {
