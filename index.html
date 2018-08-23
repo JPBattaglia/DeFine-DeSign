@@ -1,120 +1,295 @@
-<!DOCTYPE html>
+html{
+    min-height:100%;
+    overflow:auto;
+}
 
-<html>
-    <head>
-        <meta name="keywords" content="Define Design Shoes">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>DeFine DeSign Shoes</title>
-        <meta name="description" content="A custom shoe portal.">
-        <link rel="stylesheet" href="main.css"> 
-        <link href="https://fonts.googleapis.com/css?family=Federant|Akronim|Kaushan+Script|Fugaz+One|Quintessential" rel="stylesheet">   
-    </head>
+#myBtn{
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 5px; /* Place the button 5px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+    border: 1px solid gold;
+    background: url("BlueArrow.png");
+    background-size: 100%;
+}
+
+#myBtn:hover {
+    border-color: dodgerblue;
+    background: url("YellowArrow.png");
+    background-size: 100%;
+}
+
+div {
+    margin: auto;
+    text-align: center;
+    font-family: 'federant', serif;
+}
+
+div img{
+    border: gold solid 3px;
+    border-radius: 30px;
+}
+
+div h2{
+    padding:  5px 10px;
+    background: #007;
+    font-size: 22px;
+    border: double gold 6px;
+    border-radius: 13px;
+    color: white;
+    text-shadow:
+       2px 2px 0 black,
+      -2px -2px 0 black,  
+       2px -2px 0 black,
+      -2px 2px 0 black,
+       2px 2px 0 black;
+}
+
+#background {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
     
-    <body>
-        
-        <h4 id="disclaimer">This is a portal with links to several popular custom shoe design websites. In no way does it claim ownership of any brand. Have fun and be creative.</h4>
+    }
+
+a img{
+    margin-top: 100px;
+    max-width: 70%;
+}
+
+a:hover img {
+    /* Start the shake animation and make the animation last for 1 seconds */
+    animation: shake 1.5s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: 2.0s;
+    opacity: 1;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+body{
+    background: url(ChickenFootBackground1.png), repeating-linear-gradient(to right, darkblue, #006, #007, darkblue 100%);
+    background-repeat: repeat;
+    margin: 20px;
+    background-size: 50px 60px;
+}
+
+#brands{
+    max-width: 100%;
+    text-align: center;
+    font-size: 65px;
+    padding-bottom: 50px;
+    margin:auto; 
+}
+
+#disclaimer{
+    font-size: 35px;
+    background-color: #007;
+    border: 7px double gold;
+    border-radius: 20px;
+    padding:10px;
+}
+
+footer, section{
+    margin:auto;
+    text-align: center;
+    font-family:'federant', serif;
+    color:white;
+    text-shadow:
+       2px 2px 0 black,
+      -2px -2px 0 black,  
+       2px -2px 0 black,
+      -2px 2px 0 black,
+       2px 2px 0 black;
+}
+
+footer{
+    margin-top: 100px;
+}
+
+table, td{
+    border-radius: 30px;
+    border-spacing: 155px 150px;
+    margin:auto;
+}
+
+td{
+    border: 6px double gold;
+    background: #007;
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
+td:hover{
     
-        <section id="brands">
-            
-            <a href="https://www.vans.com/custom-shoes.html?cm_mmc=Google-_-G_Vans_Brand_Customs-_-vans%20custom&KWID=422883489.948&adID=192637113962&rmatt=tsid:1013075%7Ccid:252979133%7Cagid:17590068773%7Ctid:aud-298697714043:kwd-422883489%7Ccrid:192637113962%7Cnw:g%7Crnd:2910928734559323894%7Cdvc:c%7Cadp:1t2%7Cmt:e%7Cloc:1014221&gclid=Cj0KCQjw77TbBRDtARIsAC4l83lMss-HXeu4jJ9Qtbf6GCSmCB8GpFyLcKrOR-eP6zt2pMH4WvtAO0MaAs2bEALw_wcB"><img src="VansLogo.png" alt="vans logo" class="border"><br><h2 class = hvr-outline-in>Vans</h2></a><br>
-            
-            <a href="https://www.converse.com/us/en_us/c/converse/custom"><img src="ConverseLogo.png" alt="converse logo" class="border"><br><h2 class = hvr-outline-in>Converse</h2></a><br>
-            
-            <a href="https://www.adidas.com/us/customize?cm_mmc=AdieSEM_Google-_-mi_Trademark-General-B-Exact-_-mi_General-Custom-X-General-_-ds_kid_43700014900015997&cm_mmca1=US&cm_mmca2=e&ds_agid=58700001941025701&gclid=Cj0KCQjw77TbBRDtARIsAC4l83lQdAag5DhLXIF4tIfdcBYYMwBbM70NV1ACGTVU8pUqCIAZM9uTFrsaAinPEALw_wcB&gclsrc=aw.ds&dclid=CP-Vy7qX49wCFRizTwodSiEDpg"><img src="AdidasLogo.png" alt="adidas logo" class="border"><br><h2 class = hvr-outline-in>Adidas</h2></a><br>
-            
-            <a href="https://store.nike.com/us/en_us/pw/nikeid-shoes/1k9Zoi3"><img src="Nikelogo.png" alt="nike logo" class="border"><br><h2 class = hvr-outline-in>Nike</h2></a><br>
-            
-            <a href="https://www.reebok.com/us/yourreebok?cm_mmc=RbkSEM_Google_ecom-_-B-Customized-NONE-YourReebok-Exact-_-YourReebok-Custom-_-Reebok&cm_mmca1=US&gclid=CMnN76Cj49wCFVgxgQodpmED2g&gclsrc=ds&dclid=CJeygaGj49wCFY7VZAodA2kBrQ"><img src="Reeboklogo.png" alt="reebok logo" class="border"><br><h2 class = hvr-outline-in>Reebok</h2></a><br>
-            
-            <a href="https://www.newbalance.com/nb1/explore/?src=072717NB1L&ICID=NB1LFSTL_PN"><img src="NewBalanceLogo.png" alt="New Balance logo" class="border"><br><h2 class = hvr-outline-in>New Balance</h2></a><br>
-            
-            <a href="https://www.timberland.com/custom.html"><img src="TimberlandLogo.png" alt= "Timberland logo"><br><h2 class = hvr-outline-in>Timberland</h2></a><br>
-                
-            
-        </section>   
-        
-        <button onclick="topFunction()" id="myBtn" title="Go to top">
-        </button>
-        
-        <script>
-            
-            // When the user scrolls down 20px from the top of the document, show the button
-            window.onscroll = function() {scrollFunction()};
+    background:  rgba(0, 0, 50, .6);
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
 
-            function scrollFunction() {
-            if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
-            document.getElementById("myBtn").style.display = "block";
-            } else {
-            document.getElementById("myBtn").style.display = "none";
-                }
-            }
+td h2{
+    border:none;
+    background: none;
+}
 
-            // When the user clicks on the button, scroll to the top of the document
-            function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-            }    
-        </script>
-        
-        <div>        
-            <a href= "https://play.google.com/store/apps/details?id=com.jpbattaglia.chickenfoot"><img src= "ChickenFootApp.png" alt="app logo"><br> <h2 class= "hvr-outline-in">Free Android App</h2></a><br>
-        
-        </div>
-            
+h4, #web{
+    font-size: 55px;    
+    text-align: center;
+    font-family:'federant', serif;
+    color:white;
+    text-shadow:
+       2px 2px 0 black,
+      -2px -2px 0 black,  
+       2px -2px 0 black,
+      -2px 2px 0 black,
+       2px 2px 0 black;    
+}
+
+h3{
+    background-color: #007;
+    border: 3px double gold;
+    border-radius: 20px;
+    padding: 5px;
+    max-width: 20%;
+    margin:auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+h2{
+    border: 3px solid gold;
+    border-radius: 10px;
+    padding: 0px 12px;
+    background: rgb(0, 0, 119, .7);
+    font-size: 45px;
+    color:blue;
+    text-shadow:
+       2px 2px 0 gold,
+      -2px -2px 0 gold,  
+       2px -2px 0 gold,
+      -2px 2px 0 gold,
+       2px 2px 0 gold;
+}
+
+h5{
+    font-size: 35px;
+    text-align: center;
+    margin:auto;
+    color:blue;
+    text-shadow:
+       2px 2px 0 gold,
+      -2px -2px 0 gold,  
+       2px -2px 0 gold,
+      -2px 2px 0 gold,
+       2px 2px 0 gold;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+@media (min-width: 1024px){
+    section{
+        display: none;
+    }
     
-        
-        <table id="web">
+    a img{
+    margin: 100px 50px 0px 50px;
+    }
+}
 
-                
-                <tr>
-                    <td>
-                        <a  href="https://www.vans.com/custom-shoes.html?cm_mmc=Google-_-G_Vans_Brand_Customs-_-vans%20custom&KWID=422883489.948&adID=192637113962&rmatt=tsid:1013075%7Ccid:252979133%7Cagid:17590068773%7Ctid:aud-298697714043:kwd-422883489%7Ccrid:192637113962%7Cnw:g%7Crnd:2910928734559323894%7Cdvc:c%7Cadp:1t2%7Cmt:e%7Cloc:1014221&gclid=Cj0KCQjw77TbBRDtARIsAC4l83lMss-HXeu4jJ9Qtbf6GCSmCB8GpFyLcKrOR-eP6zt2pMH4WvtAO0MaAs2bEALw_wcB"><img src="VansLogo.png" alt="logo"><br><h2>Vans</h2></a>
-            
-                        
-                    </td>
-                    <td>
-                        <a href="https://www.adidas.com/us/customize?cm_mmc=AdieSEM_Google-_-mi_Trademark-General-B-Exact-_-mi_General-Custom-X-General-_-ds_kid_43700014900015997&cm_mmca1=US&cm_mmca2=e&ds_agid=58700001941025701&gclid=Cj0KCQjw77TbBRDtARIsAC4l83lQdAag5DhLXIF4tIfdcBYYMwBbM70NV1ACGTVU8pUqCIAZM9uTFrsaAinPEALw_wcB&gclsrc=aw.ds&dclid=CP-Vy7qX49wCFRizTwodSiEDpg"><img src="AdidasLogo.png" alt="logo"><br><h2>Adidas</h2></a>
-                        
-                    </td>    
-                </tr>
-                
-                <tr> 
-                    <td>
-                        <a href="https://www.converse.com/us/en_us/c/converse/custom"><img src="ConverseLogo.png" alt="logo"><br><h2>Converse</h2></a>
-                    </td>    
-                    <td>    
-                        <a href="https://www.timberland.com/custom.html"><img src="TimberlandLogo.png" alt= "Timberland logo"><br><h2>Timberland</h2></a>
-                    </td>
-                </tr>
-            
-                <tr>     
-                    <td>
-                        <a href="https://store.nike.com/us/en_us/pw/nikeid-shoes/1k9Zoi3"><img src="Nikelogo.png" alt="logo"><br><h2>Nike</h2></a>
-                    </td>
-                    <td>
-                        <a href="https://www.newbalance.com/nb1/explore/?src=072717NB1L&ICID=NB1LFSTL_PN"><img src="NewBalanceLogo.png" alt="New Balance logo"><br><h2>New Balance</h2></a>
-                    </td>
-                </tr>   
-   
-                <tr>     
-                    <td>
-                        <a href="https://www.reebok.com/us/yourreebok?cm_mmc=RbkSEM_Google_ecom-_-B-Customized-NONE-YourReebok-Exact-_-YourReebok-Custom-_-Reebok&cm_mmca1=US&gclid=CMnN76Cj49wCFVgxgQodpmED2g&gclsrc=ds&dclid=CJeygaGj49wCFY7VZAodA2kBrQ"><img src="Reeboklogo.png" alt="logo" ><br><h2>Reebok</h2></a>
-                    </td>
-                    <td>
-                        <img src="LettermarkLogo.png" alt= "Pierro">
-                    </td>
-                </tr>   
-            </table>
+@media (max-width: 1025px){
+    #web, div{
+        display:none;
+    }
+    #disclaimer{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 38px;
+    }
     
-        <footer>
-            <h3> 
-            &#169; JP Battaglia 2018&nbsp;
-            </h3>
-        </footer>
+    h2:hover{
+        font-size: 38px;
+        background: rgb(0, 0, 119, .7);
+        padding: 0px 10px;
+    }
+    
+    h3{
+        font-size: 12px;
+        margin: auto;
+        max-width: 50%;
+    }
+}
 
-    </body>
+.hvr-outline-in {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+      position: relative;
+    }
+.hvr-outline-in:before {
+      pointer-events: none;
+      content: '';
+      position: absolute;
+      border: gold double 5px;
+      border-radius: 15px;
+      top: -16px;
+      right: -16px;
+      bottom: -16px;
+      left: -16px;
+      opacity: 0;
+      -webkit-transition-duration: .5s;
+      transition-duration: .5s;
+      -webkit-transition-property: top, right, bottom, left;
+      transition-property: top, right, bottom, left;
+    }
+.hvr-outline-in:hover:before, .hvr-outline-in:focus:before, .hvr-outline-in:active:before {
+      top: -8px;
+      right: -8px;
+      bottom: -8px;
+      left: -8px;
+      opacity: 1;
+    }
 
-
-</html>
