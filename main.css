@@ -97,7 +97,7 @@ body{
     background: url(ChickenFootBackground1.png), repeating-linear-gradient(to right, darkblue, #006, #007, darkblue 100%);
     background-repeat: repeat;
     margin: 20px;
-    background-size: 65px 70px;
+    background-size: 50px 60px;
 }
 
 #brands{
