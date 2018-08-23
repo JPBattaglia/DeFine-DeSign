@@ -24,6 +24,33 @@ html{
     background-size: 100%;
 }
 
+div {
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    font-family: 'federant', serif;
+}
+
+div img{
+    border: gold solid 3px;
+    border-radius: 30px;
+    max-height: 300px;
+}
+div h2{
+    padding: 10px 15px;
+    background: #007;
+    font-size: 35px;
+    border: double gold 6px;
+    border-radius: 13px;
+    color: white;
+    text-shadow:
+       2px 2px 0 black,
+      -2px -2px 0 black,  
+       2px -2px 0 black,
+      -2px 2px 0 black,
+       2px 2px 0 black;
+}
+
 #background {
     position:absolute;
     top: 50%;
@@ -85,7 +112,7 @@ body{
     font-size: 35px;
     background-color: #007;
     border: 7px double gold;
-    border-radius: 30px;
+    border-radius: 20px;
     padding:10px;
 }
 
@@ -197,7 +224,7 @@ a:active {
 }
 
 @media (max-width: 1025px){
-    #web{
+    #web, div{
         display:none;
     }
     #disclaimer{
