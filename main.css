@@ -210,6 +210,19 @@ h2{
        2px 2px 0 gold;
 }
 
+h5{
+    font-size: 35px;
+    text-align: center;
+    margin:auto;
+    color:blue;
+    text-shadow:
+       2px 2px 0 gold,
+      -2px -2px 0 gold,  
+       2px -2px 0 gold,
+      -2px 2px 0 gold,
+       2px 2px 0 gold;
+}
+
 a:active {
     text-decoration: none;
 }
