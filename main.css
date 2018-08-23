@@ -130,6 +130,10 @@ footer, section{
        2px 2px 0 black;
 }
 
+footer{
+    margin-top: 100px;
+}
+
 table, td{
     border-radius: 30px;
     border-spacing: 155px 200px;
