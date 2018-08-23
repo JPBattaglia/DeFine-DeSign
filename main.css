@@ -25,7 +25,6 @@ html{
 }
 
 div {
-    width: 550px;
     margin: auto;
     text-align: center;
     font-family: 'federant', serif;
@@ -34,12 +33,12 @@ div {
 div img{
     border: gold solid 3px;
     border-radius: 30px;
-    max-height: 300px;
 }
+
 div h2{
-    padding: 10px 15px;
+    padding:  5px 10px;
     background: #007;
-    font-size: 35px;
+    font-size: 22px;
     border: double gold 6px;
     border-radius: 13px;
     color: white;
@@ -121,7 +120,6 @@ footer, section{
     text-align: center;
     font-family:'federant', serif;
     color:white;
-    list-style-type: none;
     text-shadow:
        2px 2px 0 black,
       -2px -2px 0 black,  
@@ -136,7 +134,7 @@ footer{
 
 table, td{
     border-radius: 30px;
-    border-spacing: 155px 200px;
+    border-spacing: 155px 150px;
     margin:auto;
 }
 
@@ -180,10 +178,9 @@ h3{
     background-color: #007;
     border: 3px double gold;
     border-radius: 20px;
-    border-spacing: 20px;
     padding: 5px;
-    margin: 0px 400px;
     max-width: 20%;
+    margin:auto;
 }
 
 a:link {
