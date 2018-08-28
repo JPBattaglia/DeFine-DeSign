@@ -13,13 +13,13 @@ html{
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 50px; /* Rounded corners */
-    border: 1px solid gold;
+    border: 2px solid dodgerblue;
     background: url("BlueArrow.png");
     background-size: 100%;
 }
 
 #myBtn:hover {
-    border-color: dodgerblue;
+    border-color: gold;
     background: url("YellowArrow.png");
     background-size: 100%;
 }
@@ -31,6 +31,7 @@ div {
 }
 
 div img{
+    width: 120px;
     border: gold solid 3px;
     border-radius: 30px;
 }
@@ -140,7 +141,7 @@ table, td{
 
 td{
     border: 6px double gold;
-    background: #007;
+    background-image: radial-gradient(blue, #007, #004);
     -webkit-transition: background-color .5s ease-out;
     -moz-transition: background-color .5s ease-out;
     -o-transition: background-color .5s ease-out;
@@ -149,7 +150,7 @@ td{
 
 td:hover{
     
-    background:  rgba(0, 0, 50, .6);
+    background:  rgba(0, 0, 34, .6);
     -webkit-transition: background-color .5s ease-out;
     -moz-transition: background-color .5s ease-out;
     -o-transition: background-color .5s ease-out;
