@@ -71,6 +71,29 @@ a img{
     max-width: 70%;
 }
 
+aside{
+    border: 6px double gold;
+    background-image: radial-gradient(blue, #007, #004);
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+    padding: 50px 5px;
+    border-radius: 35px;
+    max-width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    
+}
+
+aside:hover{
+    background:  rgba(0, 0, 34, .6);
+    -webkit-transition: background-color .5s ease-out;
+    -moz-transition: background-color .5s ease-out;
+    -o-transition: background-color .5s ease-out;
+    transition: background-color .5s ease-out;
+}
+
 a:hover img {
     /* Start the shake animation and make the animation last for 1 seconds */
     animation: shake 1.5s; 
@@ -244,6 +267,7 @@ a:active {
     }
     #disclaimer{
         font-size: 20px;
+        margin-bottom: 100px;
     }
     h2{
         font-size: 38px;
@@ -296,8 +320,8 @@ a:active {
 
 .cd-top {
   display: inline-block;
-  height: 45px;
-  width: 45px;
+  height: 40px;
+  width: 40px;
   border-radius: 35px;
   border: 2px solid gold;
   position: fixed;
@@ -309,7 +333,7 @@ a:active {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: url(YellowArrow.png) no-repeat center 50%;
+  background: url(YellowArrow.png) no-repeat center 45%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s, background-color .3s 0s;
