@@ -183,6 +183,11 @@ td:hover{
 td h2{
     border:none;
     background: none;
+    padding: 0px 15px;
+}
+
+td h2:hover{
+    background:  rgba(0, 0, 34, .7);
 }
 
 h4, #web{
