@@ -73,7 +73,7 @@ a img{
 
 aside{
     border: 6px double gold;
-    background-image: radial-gradient(#4000ff, #200080, #002);
+    background-image: radial-gradient(#4000ff, #200080, #1a0033);
     -webkit-transition: background-color .5s ease-out;
     -moz-transition: background-color .5s ease-out;
     -o-transition: background-color .5s ease-out;
@@ -164,7 +164,7 @@ table, td{
 
 td{
     border: 6px double gold;
-    background-image: radial-gradient(#4000ff, #200080, #002);
+    background-image: radial-gradient(#4000ff, #200080, #1a0033);
     -webkit-transition: background-color .5s ease-out;
     -moz-transition: background-color .5s ease-out;
     -o-transition: background-color .5s ease-out;
